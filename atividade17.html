@@ -7,11 +7,15 @@
 </head>
 <body>
     <script>
-        var valores = [5, 10, 15, 20];
+        var numeros = [5,10,15,20]
+        var soma = 0 
+        alert("Numeros: " + numeros)
 
-        var soma = valores.reduce((total, numero) => total + numero, 0);
-        alert("Soma:", soma);
-        
+        numeros.forEach(function(item){
+            soma = soma + item
+        })
+
+        alert("A soma dos valore é de: " + soma)
     </script>
     
 </body>

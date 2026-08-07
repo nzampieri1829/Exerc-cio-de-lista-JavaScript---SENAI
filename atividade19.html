@@ -8,9 +8,17 @@
 <body>
     <script>
         var lista = [3, 12, 7, 25, 9, 18, 10];
+        var maioresdez = []
+        alert("lista: " + lista)
 
-        var maiores = lista.filter(numero => numero > 10);
-        alert("Maiores que 10:", maiores);
+        lista.forEach(function(item){
+            if(item >= 10){
+             maioresdez.push(item)
+            }
+        })
+        alert("Os números maiores que dez são: " + maioresdez)
+
+
         
     </script>
     

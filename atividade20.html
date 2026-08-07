@@ -7,15 +7,16 @@
 </head>
 <body>
     <script>
-        var frutas2 = ["Maçã", "Banana", "Uva", "Laranja"];
 
-        var indice = frutas2.indexOf("Banana");
-
-        if (indice !== -1) {
-        frutas2.splice(indice, 1);
+        var fruta = ["Banana", "Uva", "Pera"]
+        fruta.forEach(function(lista, posicao)){
+            if (frutas == "Banana"){
+                frutas.splice(posicao, 1)
+            }
         }
 
-        alert("Lista de frutas:", frutas2);
+        alert("frutas")
+
         
     </script>
     

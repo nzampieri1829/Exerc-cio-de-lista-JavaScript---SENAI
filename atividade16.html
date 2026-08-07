@@ -1,18 +1,20 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atividade 16</title>
-</head>
-<body>
+    <title>exercicio 16</title>
     <script>
-        var pessoas = ["Ana", "Pedro", "Amanda", "Lucas", "Arthur", "Beatriz"];
+            var pessoas = ["Ana","Amanda","Carlos"]
 
-        var comA = pessoas.filter(nome => nome.startsWith("A"));
-        alert("Nomes com A:", comA);
+            pessoas.forEach(function(item){
+                if(item[0]== "A"){
+                    alert(item)
+                }
+            })
         
     </script>
+</head>
+<body>
     
 </body>
 </html>

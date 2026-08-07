@@ -7,10 +7,16 @@
 </head>
 <body>
     <script>
-        var numerosOriginais = [2, 4, 6, 8];
+        var numeros = [10,20,30]
+        var dobro = []
+        alert("A lista é: " + numeros)
 
-        var dobro = numerosOriginais.map(numero => numero * 2);
-        alert("Dobro:", dobro);
+        numeros.forEach(function(item){
+            dobro.push(item * 2)
+        })
+
+        alert("O dobro é: " + dobro)
+        
         
     </script>
     
